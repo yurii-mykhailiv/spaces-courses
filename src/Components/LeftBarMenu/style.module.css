@@ -1,0 +1,86 @@
+.sidebarMenu {
+  background-color: #28292C;
+  min-width: 237px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 21px 24px 21px;
+}
+
+.pageLinks {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  gap: 16px;
+  padding-bottom: 320px;
+}
+
+.pageLink {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 16px;
+  color: #939495;
+}
+
+.activeLink, .pageLink:hover {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  background-color: #7789EA;
+  color: #FFFFFF;
+  padding: 12px;
+}
+
+.pageLink:hover svg path {
+  stroke: #FFFFFF;
+}
+
+
+.line{
+  max-width: 205px;
+  height: 1px;
+  background: #333539;
+  border-radius: 5px;
+}
+
+.logoutButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  background-color: #28292C;
+  color: #939495;
+  border: none;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+  padding: 12px 20px;
+}
+
+.logoutButton:hover{
+  color: #FFFFFF;
+  font-weight: 500;
+  background-color: #7789EA;
+  border-radius: 10px;
+  padding: 12px 20px;
+}
+
+.logoutButton:hover svg path{
+  stroke: #FFFFFF;
+}

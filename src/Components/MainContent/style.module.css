@@ -1,0 +1,23 @@
+.mainContentWrapper{
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.topSection{
+  display: flex;
+  gap: 24px;
+}
+
+.mainSection{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.bottomSection{
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+}

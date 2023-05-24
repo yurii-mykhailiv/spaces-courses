@@ -1,0 +1,64 @@
+.blockCoursesProgress {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 273px;
+  height: 96px;
+  background-color: #28292B;
+  border-radius: 10px;
+  padding: 8px 0;
+  gap: 24px;
+}
+
+.imageWrapper {
+  width: 64px;
+  height: 64px;
+  margin-left: 24px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.image g path {
+  stroke: #FFFFFF;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.progressDescription{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progressBar{
+  display: flex;
+  align-items: center;
+}
+
+.progress {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.length {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.5);
+}

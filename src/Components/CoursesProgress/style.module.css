@@ -1,0 +1,7 @@
+.wrapper{
+  width: 851px;
+  height: 314px;
+  border-radius: 10px;
+  background-image: url('../../assets/SpaceBG.png');
+  position: relative;
+}

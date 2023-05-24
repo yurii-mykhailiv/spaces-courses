@@ -1,0 +1,11 @@
+.wrapper{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  background-color: #222325;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}

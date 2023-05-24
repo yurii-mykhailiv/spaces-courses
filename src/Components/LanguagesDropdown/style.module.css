@@ -1,0 +1,57 @@
+.dropdown {
+  position: relative;
+  width: 120px;
+}
+
+.selectedLanguage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px;
+  cursor: pointer;
+  color: #8C8B8E;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.selectedLanguage:hover,
+.selectedLanguage:hover .arrowDown path,
+.selectedLanguage:hover .arrowDownRotated path{
+  color: #FFFFFF;
+  stroke: #FFFFFF;
+}
+
+.arrowDown {
+  transition: transform 0.3s ease;
+}
+
+
+.arrowDownRotated {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+.languageList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  list-style-type: none;
+  z-index: 1;
+  color: #8C8B8E;
+  background-color:  #28292B;;
+}
+
+.languageList li {
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.languageList li:hover {
+  background-color: #f5f5f5;
+  color: #28292B;
+}

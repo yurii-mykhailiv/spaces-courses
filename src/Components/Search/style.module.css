@@ -1,0 +1,34 @@
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 16px;
+  gap: 16px;
+  width: 380px;
+  height: 44px;
+  background: #222325;
+  border-radius: 10px;
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: #222325;
+  color: #616263;
+  font-size: 14px;
+  width: 100%;
+}
+
+input:focus {
+  color: #ffffff;
+}
+
+.searchIcon circle, path {
+  stroke: #616263;
+}
+
+.search:hover .searchIcon circle,
+.search:hover .searchIcon path {
+  stroke: #ffffff;
+}

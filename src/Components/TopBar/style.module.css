@@ -1,0 +1,15 @@
+.topBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  height: 68px;
+  background-color: #28292B;
+  margin-left: 1px;
+}
+
+.leftSection{
+  display: flex;
+  gap: 20px;
+}
